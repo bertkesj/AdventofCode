@@ -1,5 +1,5 @@
 library(readr)
-numbers <- read_csv("C:/Users/bertk/OneDrive/Desktop/Advent of Code/Day 1/numbers.txt", 
+numbers <- read_csv("numbers.txt", 
                     col_names = FALSE)
 
 for (first in 1:length(numbers$X1)){
